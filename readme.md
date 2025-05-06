@@ -45,7 +45,7 @@ Postfix: The operator is placed after the variable (variable++ or variable--). T
 
 Prefix: The operator is placed before the variable (++variable or --variable). The variable is incremented or decremented first, and then the new value is returned. 
 
-`let num1 = 5;
+```let num1 = 5;
 let num2 = 5;
 let result1;
 let result2;
@@ -65,7 +65,7 @@ let res2;
 res1 = val1--; // res1 is 8, val1 is now 7
 
 // Prefix decrement
-res2 = --val2; // val2 is now 7, res2 is 7`
+res2 = --val2; // val2 is now 7, res2 is 7```
 
 ## Which one should you use?
 
