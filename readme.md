@@ -80,6 +80,7 @@ res2 = --val2; // val2 is now 7, res2 is 7
 - Be mindful of the difference between prefix and postfix when using ++ and --, especially when the result of the operation is being used in the same statement.
 
 ## Variable Re-assignment Shortcuts
+
 - += 2    variable = variable + 2
 - -= 2    variable = variable - 2
 - *= 2    variable = variable * 2
