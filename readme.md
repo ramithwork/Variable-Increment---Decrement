@@ -5,7 +5,7 @@ There are 3 main ways of doing it.
 
 This is the most straightforward way. You take the current value of the variable, add or subtract the desired amount, and then assign the result back to the same variable.
 
-`let counter = 10;
+```let counter = 10;
 
 // Increment by 1
 counter = counter + 1; // counter is now 11
@@ -17,13 +17,13 @@ counter = counter + 5; // counter is now 16
 counter = counter - 1; // counter is now 15
 
 // Decrement by 3
-counter = counter - 3; // counter is now 12`
+counter = counter - 3; // counter is now 12```
 
 ## 2. The Compound Assignment Operators (+= and -=)
 
 These operators provide a shorthand way to perform addition or subtraction and assignment in a single step.
 
-`let score = 20;
+```let score = 20;
 
 // Increment by 1
 score += 1; // Equivalent to score = score + 1; (score is now 21)
@@ -35,7 +35,7 @@ score += 10; // Equivalent to score = score + 10; (score is now 31)
 score -= 1; // Equivalent to score = score - 1; (score is now 30)
 
 // Decrement by 5
-score -= 5; // Equivalent to score = score - 5; (score is now 25)`
+score -= 5; // Equivalent to score = score - 5; (score is now 25)```
 
 ## 3. The Increment (++) and Decrement (--) Operators
 
@@ -45,7 +45,7 @@ Postfix: The operator is placed after the variable (variable++ or variable--). T
 
 Prefix: The operator is placed before the variable (++variable or --variable). The variable is incremented or decremented first, and then the new value is returned. 
 
-`let num1 = 5;
+```let num1 = 5;
 let num2 = 5;
 let result1;
 let result2;
@@ -65,7 +65,7 @@ let res2;
 res1 = val1--; // res1 is 8, val1 is now 7
 
 // Prefix decrement
-res2 = --val2; // val2 is now 7, res2 is 7`
+res2 = --val2; // val2 is now 7, res2 is 7```
 
 ## Which one should you use?
 
