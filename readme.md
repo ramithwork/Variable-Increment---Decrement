@@ -71,10 +71,18 @@ res1 = val1--; // res1 is 8, val1 is now 7
 
 // Prefix decrement
 res2 = --val2; // val2 is now 7, res2 is 7
-```
+``` 
 
 ## Which one should you use?
 
 - For incrementing or decrementing by a value other than 1, use the + and - operators with assignment or the compound assignment operators (+=, -=).
 - For incrementing or decrementing by exactly 1, the ++ and -- operators are concise and often preferred.
 - Be mindful of the difference between prefix and postfix when using ++ and --, especially when the result of the operation is being used in the same statement.
+
+## Variable Re-assignment Shortcuts
++= 2    variable = variable + 2
+-= 2    variable = variable - 2
+*= 2    variable = variable * 2
+/= 2    variable = variable / 2
+++      variable = variable + 1
+--      variable = variable - 1
